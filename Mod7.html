@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+    <title>Sabrina's Mod 7 Assignment</title>
+    <style>
+          body,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+          h1{
+          color: rgb(255, 0, 102);
+          font-family: Helvetica;
+       }
+    </style>
+    </center>
+</head>
+<body>
+    <center>
+      <h1><font size="50">Welcome to Sabrina's World</font><br></h1>
+
+    <script type="text/javascript">
+      const day = new Date().getDay();
+
+      switch (day)
+      {
+        case 0:
+          document.write("No classes because it's Sunday!");
+          break;
+        case 1:
+          document.write("Classes for today: Oral Communications, Problem Solving with IT, and Programming.");
+          break;
+        case 2:
+          document.write("Classes for today: Community Engagement, and Statistics.");
+          break;
+        case 3:
+          document.write("Classes for today: Oral Communications, Problem Solving with IT, and Business Analytics.");
+          break;
+        case 4:
+          document.write("Classes for today: Community Engagement, and Statistics.");
+          break;
+        case 5:
+          document.write("No classes because RSB students has no class on Friday's!");   //add color to this text
+          break;
+        case 6:
+          document.write("No classes because it's Saturday!");
+          break;
+        default:
+          document.write("Oh...well...you messed up.");
+      }
+    </script>
+
+    <table>
+        <tr>
+          <td><p><img src="BPCF.jpg" alt = "Sabrina at Bethel Bounty" width="400" height="400"></p></td>
+          <td><p><img src="IMG_20181021_181744_102.jpg" alt = "Sabrina at Trax Farms" width="400" height="400"></p></td>
+        </tr>
+    </table>
+
+    <script>
+    var start = 1;
+
+    while(start <=91)
+    {
+      start++;
+      if(start==91)
+      {
+        document.write(start + " days until vacation");
+      }
+    }
+
+
+    var text = " ";
+    var i = 0;
+      do{
+         text = " My birthday is in " + i + " days";
+         i++;
+      }
+        while(i <= 339)
+        document.write(text);
+    </script>
+
+
+    <table>
+        <tr>
+          <td><p><img src="SiestaKey.jpg" alt = "Siesta Key" width="700" height="500"></p></td>
+          <td><p><img src="IMG_20190212_101301_981.jpg" alt = "Sabrina's 19th Birthday" width="400" height="550"></p></td>
+        </tr>
+    </table>
+
+
+
+</body>
+</html>
